@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   justify-content: center;
+   padding: 1rem;
+   justify-content: center;
+   align-items: center;
+   background-color: #EEEEEE;
+}
+
+.Qcard{
+    /* box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: solid #aaaaaa 0.7px;
+    width: 70%; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: solid #aaaaaa 0.7px;
+    background-color:#393E46;
+}
+.options button{
+    background-color:#00ADB5;
+    width: 80%;
+    height: 3rem;
+    color: white;
+    border-radius: 0.75rem;
+    border: white;
+    font-size: medium;
+    text-align: left;
+    padding-left: 1.7rem;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.options button:hover{
+    cursor: pointer;
+    color:black;
+    
+}
+h1{
+    
+    background-color:#00ADB5;
+    font-family: "Monserrat-bold";
+    color: white;
+    border-radius: 0.75rem;
+    padding: 2%;
+}
+
+.saving{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 19%;
+    padding-left: 1.2rem;
+    
+}
+.saving button{
+    background-color: #00ADB5 !important;
+    width: 30%;
+    height: 3rem;
+    border-radius: 3rem;
+    border: white;
+    font-size: medium;
+    color: white;
+}
+
+.saving button:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;   
+}
+.exit{
+    padding-left: 1.2rem;
+}
+.exit button{
+    background-color: #00ADB5 !important;
+    width: 30%;
+    height: 3rem;
+    border-radius: 3rem;
+    border: white;
+    font-size: medium;
+    color: white;
+}
+.exit button:hover{
+
+    cursor: pointer;
+    color: yellowgreen;
+
+}
+.options .correctans{
+    background-color: rgb(18, 185, 18);
+}
+.options .wrongans{
+    background-color: rgb(203, 52, 52);
+}
+.answerStatus{
+    margin-left: 1.5rem;
+    font-weight: 700;
+    color: #EEEEEE;
+}

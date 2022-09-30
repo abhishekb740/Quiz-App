@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.Modal{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Highscores{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border-radius: 1rem;
+    border: solid #aaaaaa 0.7px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+    background-color: #393E46;
+    
+}
+.foote-backbtn{
+    position: relative;
+    right: 2.9%;
+    
+}
+
+.foote-highscore{
+    width: 100%;
+    text-align: center;
+    background-color: #00ADB5;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 15px;
+}
+
+
+.highscoring-text{
+    background-color: #00ADB5;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.5rem;
+    
+}
+.butt1{
+    background-color: #00ADB5;
+    height: 3rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: medium;
+    width: 3rem;
+    border-style: hidden;
+   
+}
+.butt2{
+    background-color: #00ADB5;
+    height: 3rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: medium;
+    border-style: hidden;
+    padding: 1%;
+    font-style: "Montserrat";
+    font-size: larger;
+
+}
+.butt1:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    font-size: large;
+}
+.butt2:hover{
+   font-size: larger;
+   font-weight: bold;
+    
+    cursor: pointer;
+
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    gap: 2rem;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-weight: bold;
+}

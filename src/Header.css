@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.leftpointer{
+    width: 1.5rem;
+    color:white;
+    padding-left: 0.2rem;
+    
+
+    
+}
+.header1{
+    padding: 2.5rem 5.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    background-color:#393E46;
+    justify-content: space-between; 
+    
+}
+.highscore-text{
+    color: white;
+    font-size: larger;
+    padding-left: 0.5rem;
+    
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.highscore{
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    text-decoration: none;
+}
+.lol{
+    padding-top: 55px;
+    padding-left:15.5px;
+}
+span{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1.5%;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    height: fit-content;
+    background-color:#00ADB5;
+    border-radius: 7%;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    border-style:hidden;
+    color: white;
+
+}
+span:hover{
+    color:black;
+    background-color:white;
+
+}
+.header1 button{
+    background-color:#393E46;
+    color:white;
+    border-width: 0;
+}
+button:hover{
+    cursor: pointer;
+}
