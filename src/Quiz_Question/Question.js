@@ -66,6 +66,7 @@ const Question = (props,{navigation}) => {
             History('/');
             props.setTimer(50);
             props.setCompleted(true);
+            window.location.replace("/");
         } else {
             window.history.pushState(null, null, window.location.pathname);
             setfinishStatus(false)

@@ -12,7 +12,6 @@ const Result = (props) => {
     var temp = highScore
     temp.push(newHighScore)
     setHighScore(temp)
-    console.log(highScore)
   }
 
   const History = useNavigate();
@@ -32,6 +31,7 @@ const Result = (props) => {
     highScore.sort((a, b) => b.score-a.score)
     localStorage.setItem("Score", JSON.stringify(highScore));
     props.setTimer(50);
+    window.location.replace('/');
   };
 
   const onBackButtonEvent = (e) => {
@@ -42,6 +42,7 @@ const Result = (props) => {
             History('/');
             props.setTimer(50);
             props.setCompleted(true);
+            window.location.replace("/");
         } else {
             window.history.pushState(null, null, window.location.pathname);
             setfinishStatus(false)
